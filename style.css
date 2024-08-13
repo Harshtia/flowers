@@ -21,4 +21,12 @@ body{
   margin-left: 35px;
 }
 
-.flower.flower-white1
+.flower.flower-pink{
+  height: 80px;
+  width: 80px;
+  background: rgba(196, 49, 171, 0.8);
+  border radius: 50%;
+  border: 2px solid rgba(196, 49, 171, 0.8);
+  box-shadow: 0 0 0 10px rgba(255, )
+  
+}
