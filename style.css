@@ -25,9 +25,20 @@ body{
   height: 80px;
   width: 80px;
   background: rgba(196, 49, 171, 0.8);
-  border radius: 50%;
+  border-radius: 50%;
   border: 2px solid rgba(196, 49, 171, 0.8);
   box-shadow: 0 0 0 10px rgba(255, 137, 235, 0.8), 0 0 0 10px rgba(196, 49, 171, 0.8) inset;
   z-index: 1;
+  }
+
+.flower span{
+  background: rgba(137, 163, 19, 0.8);
+  width: 10px;
+  height: 250px;
+  display: block;
+  position: relative;
+  left: 36px;
+  top: 90px;
   
 }
+
