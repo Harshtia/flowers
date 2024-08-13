@@ -1,0 +1,24 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: black;
+}
+
+.section{
+  background: black;
+  margin-top: 100px;
+  height: 360px;
+  overflow: hidden;
+  border-bottom: 10px solid rgba(150, 104, 45, 1);
+}
+
+.flower{
+  position: relative;
+  top: 50px;
+  left: 50px;
+  float: left;
+  z-index: 1;
+  margin-left: 35px;
+}
+
+.flower.flower-white1
