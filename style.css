@@ -39,6 +39,32 @@ body{
   position: relative;
   left: 36px;
   top: 90px;
-  
+  }
+
+.flower span:before{
+  content: '';
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: rgba(137, 163, 19, 0.6);
+  border-radius: 0 25px 0 25px;
+  position: absolute;
+  left: -47px;
+  top: 70px;
+  box-shadow: 0 0 0 10px rgba(137, 163, 19, 0.6);
+  transform: rotateY(140deg);
+}
+
+.flower span:after{
+  content: '';
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: rgba(137, 163, 19, 0.6);
+  border-radius: 0 25px 0 25px;
+  positon: absolute;
+  top: 10px;
+  left: 5px;
+  transform: rotateY(-140deg);
 }
 
