@@ -51,7 +51,7 @@ body{
   position: absolute;
   left: -47px;
   top: 70px;
-  box-shadow: 0 0 0 10px rgba(137, 163, 19, 0.6);
+  box-shadow: 0 0 0 5px rgba(137, 163, 19, 0.6);
   transform: rotateY(140deg);
 }
 
