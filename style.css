@@ -19,6 +19,8 @@ body{
   float: left;
   z-index: 1;
   margin-left: 35px;
+
+  animation: grow-flowers 5s infinite linear; 
 }
 
 .flower.flower-pink{
@@ -73,6 +75,7 @@ body{
   top: 70px;
   box-shadow: 0 0 0 5px rgba(137, 163, 19, 0.6);
   transform: rotateY(140deg);
+  -webkit-transform-orgin: right;
 
   animation: flip-left 5s infinite linear;
 }
@@ -89,6 +92,7 @@ body{
   top: 10px;
   left: 5px;
   transform: rotateY(-140deg);
+  -webkit-transform-orgin:left;
 
   animation: flip-left 5s infinite linear;
 }
@@ -98,10 +102,22 @@ body{
    transform: rotateY(0deg);
  }
  50%{
-   transform: rotateY(0deg);
+   transform: rotateY(1800deg);
  }
  100%{
    transform: rotateY(0deg);
+ }
+}
+
+@keyframes grow-flowers{
+ 0%{
+   top: 200px;
+ }
+ 50%{
+   top: 50px;
+ }
+ 100%{
+   top: 200px;
  }
 }
 
