@@ -31,7 +31,25 @@ body{
   z-index: 1;
   }
 
+.flower.flower-red{
+  height: 80px;
+  width: 80px;
+  background: rgba(193, 34, 171, 0.6);
+  border-radius: 50%;
+  border: 2px solid rgba(193, 34, 171, 0.8);
+  box-shadow: 0 0 0 5px rgba(193, 34, 171, 0.6), 0 0 0 5px rgba(193, 34, 171, 0.6) inset;
+  z-index: 1;
+  }
 
+.flower.flower-yellow{
+  height: 80px;
+  width: 80px;
+  background: rgba(229, 211, 11, 0.8);
+  border-radius: 50%;
+  border: 2px solid rgba(229, 211, 11, 0.8);
+  box-shadow: 0 0 0 10px rgba(229, 211, 11, 0.8), 0 0 0 10px rgba(229, 211, 11, 0.8) inset;
+  z-index: 1;
+  }
 
 .flower span{
   background: rgba(137, 163, 19, 0.8);
