@@ -14,7 +14,7 @@ body{
 
 .flower{
   position: relative;
-  top: 50px;
+  top: 200px;
   left: 50px;
   float: left;
   z-index: 1;
@@ -23,45 +23,25 @@ body{
   animation: grow-flowers 5s infinite linear; 
 }
 
-.flower.flower-pink{
+.flower.flower-white{
   height: 80px;
   width: 80px;
-  background: rgba(196, 49, 171, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
-  border: 2px solid rgba(196, 49, 171, 0.8);
-  box-shadow: 0 0 0 10px rgba(255, 137, 235, 0.8), 0 0 0 10px rgba(196, 49, 171, 0.8) inset;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.8), 0 0 0 10px rgba(255, 255, 255, 0.8) inset;
   z-index: 1;
-  }
-
-.flower.flower-red{
-  height: 80px;
-  width: 80px;
-  background: rgba(193, 34, 5, 0.6);
-  border-radius: 50%;
-  border: 2px solid rgba(193, 34, 5, 0.6);
-  box-shadow: 0 0 0 5px rgba(193, 34, 5, 0.6), 0 0 0 5px rgba(193, 34, 5, 0.6) inset;
-  z-index: 1;
-  }
-
-.flower.flower-yellow{
-  height: 80px;
-  width: 80px;
-  background: rgba(229, 211, 11, 0.8);
-  border-radius: 50%;
-  border: 2px solid rgba(229, 211, 11, 0.8);
-  box-shadow: 0 0 0 15px rgba(229, 211, 11, 0.4), 0 0 0 15px rgba(229, 211, 11, 0.4) inset;
-  z-index: 1;
-  }
+}
 
 .flower span{
-  background: rgba(137, 163, 19, 0.8);
+  background: rgba(180, 63, 19, 0.8);
   width: 10px;
   height: 250px;
   display: block;
   position: relative;
   left: 36px;
   top: 90px;
-  }
+}
 
 .flower span:before{
   content: '';
@@ -75,7 +55,7 @@ body{
   top: 70px;
   box-shadow: 0 0 0 5px rgba(137, 163, 19, 0.6);
   transform: rotateY(140deg);
-  -webkit-transform-orgin: right;
+  -webkit-transform-origin: right;
 
   animation: flip-left 5s infinite linear;
 }
@@ -88,11 +68,11 @@ body{
   background: rgba(137, 163, 19, 0.6);
   border-radius: 0 25px 0 25px;
   box-shadow: 0 9 9 5px rgba(137, 163, 19, 0.6) inset;
-  positon: absolute;
+  position: absolute;
   top: 10px;
   left: 5px;
   transform: rotateY(-140deg);
-  -webkit-transform-orgin:left;
+  -webkit-transform-origin:left;
 
   animation: flip-left 5s infinite linear;
 }
@@ -102,7 +82,7 @@ body{
    transform: rotateY(0deg);
  }
  50%{
-   transform: rotateY(1800deg);
+   transform: rotateY(180deg);
  }
  100%{
    transform: rotateY(0deg);
@@ -121,16 +101,62 @@ body{
  }
 }
 
-.section div:nth-child(1)
-{
+.section div:nth-child(1){
   top: 200px;
   animation-delay: 1s;
-  
 }
 
-.section div:nth-child(3)
-{
+.section div:nth-child(2){
   top: 200px;
   animation-delay: 2s;
-  
+}
+
+.section div:nth-child(3){
+  top: 200px;
+  animation-delay: 3s;
+}
+
+.section div:nth-child(4){
+  top: 200px;
+  animation-delay: 4s;
+}
+
+.section div:nth-child(5){
+  top: 200px;
+  animation-delay: 5s;
+}
+
+.section div:nth-child(6){
+  top: 200px;
+  animation-delay: 6s;
+}
+
+.section div:nth-child(7){
+  top: 200px;
+  animation-delay: 7s;
+}
+
+.section div:nth-child(8){
+  top: 200px;
+  animation-delay: 8s;
+}
+
+.section div:nth-child(9){
+  top: 200px;
+  animation-delay: 9s;
+}
+
+.section div:nth-child(10){
+  top: 200px;
+  animation-delay: 10s;
+}
+
+.section div:nth-child(11){
+  top: 200px;
+  animation-delay: 11s;
+}
+
+.section div:nth-child(12){
+  top: 200px;
+  animation-delay: 12s;
 }
